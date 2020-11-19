@@ -1,10 +1,10 @@
 # go-ms-runtime [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GoDoc](https://godoc.org/github.com/micro/micro?status.svg)](https://godoc.org/github.com/micro/micro) [![Travis CI](https://travis-ci.org/micro/micro.svg?branch=master)](https://travis-ci.org/micro/micro) [![Go Report Card](https://goreportcard.com/badge/micro/micro)](https://goreportcard.com/report/github.com/micro/micro)
 
-Micro is a distributed systems runtime for the Cloud and beyond.
+go-ms-runtime is a distributed systems runtime for the Cloud and beyond.
 
 ## Overview
 
-Micro addresses the key requirements for building distributed systems. It leverages the microservices
+go-ms-runtime addresses the key requirements for building distributed systems. It leverages the microservices
 architecture pattern and provides a set of services which act as the building blocks of a platform. Micro deals
 with the complexity of distributed systems and provides simpler programmable abstractions to build on.
 
@@ -12,7 +12,7 @@ with the complexity of distributed systems and provides simpler programmable abs
 <img src="https://micro.mu/images/runtime.svg?5" style="width: 100%; height: auto;" />
 </p>
 
-Technology is constantly evolving. The infrastructure stack is always changing. Micro is a platform which
+Technology is constantly evolving. The infrastructure stack is always changing. go-ms-runtime is a platform which
 addresses these issues with a pluggable foundation and strongly defined apis to build on. Plug into any stack or cloud.
 
 ## Features
