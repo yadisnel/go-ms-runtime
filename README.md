@@ -1,4 +1,4 @@
-# Micro [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GoDoc](https://godoc.org/github.com/micro/micro?status.svg)](https://godoc.org/github.com/micro/micro) [![Travis CI](https://travis-ci.org/micro/micro.svg?branch=master)](https://travis-ci.org/micro/micro) [![Go Report Card](https://goreportcard.com/badge/micro/micro)](https://goreportcard.com/report/github.com/micro/micro)
+# go-ms-runtime [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GoDoc](https://godoc.org/github.com/micro/micro?status.svg)](https://godoc.org/github.com/micro/micro) [![Travis CI](https://travis-ci.org/micro/micro.svg?branch=master)](https://travis-ci.org/micro/micro) [![Go Report Card](https://goreportcard.com/badge/micro/micro)](https://goreportcard.com/report/github.com/micro/micro)
 
 Micro is a distributed systems runtime for the Cloud and beyond.
 
@@ -66,21 +66,21 @@ query them directly.
 
 To write applications which run on Micro you can use the framework Go Micro.
 
-- **go-micro:** Leverage the powerful [Go Micro](https://github.com/micro/go-micro) framework to develop microservices easily and quickly.
-Go Micro abstracts away the complexity of distributed systems and provides simpler abstractions to build highly scalable microservices.
+- **go-ms-runtime:** Leverage the powerful [go-ms](https://github.com/yadisnel/go-ms) framework to develop microservices easily and quickly.
+go-ms abstracts away the complexity of distributed systems and provides simpler abstractions to build highly scalable microservices.
 
 ## Install
 
 From source
 
 ```
-go get github.com/micro/micro/v2
+go get github.com/yadisnel/go-ms-runtime/v1
 ```
 
 Docker image
 
 ```
-docker pull micro/micro
+docker pull yadisnel/go-ms-runtime
 ```
 
 Latest release binaries
@@ -108,19 +108,19 @@ micro server
 
 ```
 # generate a service (follow instructions in output)
-micro new example
+ms-runtime new example
 
 # set to use server
-micro env set server
+ms-runtime env set server
 
 # run the service
-micro run example
+ms-runtime run example
 
 # list services
-micro list services
+ms-runtime list services
 
 # call a service
-micro call go.micro.service.example Example.Call '{"name": "John"}'
+ms-runtime call go.micro.service.example Example.Call '{"name": "John"}'
 ```
 
 ## Usage
@@ -128,7 +128,7 @@ micro call go.micro.service.example Example.Call '{"name": "John"}'
 See all the options
 
 ```
-micro --help
+ms-runtime --help
 ```
 
 See the [docs](https://dev.m3o.com) for detailed information on the architecture, installation and use of the platform.
