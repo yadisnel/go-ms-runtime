@@ -8,10 +8,6 @@ go-ms-runtime addresses the key requirements for building distributed systems. I
 architecture pattern and provides a set of services which act as the building blocks of a platform. Micro deals
 with the complexity of distributed systems and provides simpler programmable abstractions to build on.
 
-<p>
-<img src="https://micro.mu/images/runtime.svg?5" style="width: 100%; height: auto;" />
-</p>
-
 Technology is constantly evolving. The infrastructure stack is always changing. go-ms-runtime is a platform which
 addresses these issues with a pluggable foundation and strongly defined apis to build on. Plug into any stack or cloud.
 
@@ -64,9 +60,9 @@ query them directly.
 
 ### Framework
 
-To write applications which run on Micro you can use the framework Go Micro.
+To write applications which run on Micro you can use the framework go-ms.
 
-- **go-ms-runtime:** Leverage the powerful [go-ms](https://github.com/yadisnel/go-ms) framework to develop microservices easily and quickly.
+- **go-ms-runtime:** Leverage the powerful [go-ms](https://yadisnel.github.io/go-ms) framework to develop microservices easily and quickly.
 go-ms abstracts away the complexity of distributed systems and provides simpler abstractions to build highly scalable microservices.
 
 ## Install
