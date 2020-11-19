@@ -131,4 +131,4 @@ See all the options
 ms-runtime --help
 ```
 
-See the [docs](https://dev.m3o.com) for detailed information on the architecture, installation and use of the platform.
+See the [docs](https://yadisnel.github.io/go-ms-runtime) for detailed information on the architecture, installation and use of the platform.
