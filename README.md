@@ -97,26 +97,26 @@ powershell -Command "iwr -useb https://raw.githubusercontent.com/micro/micro/mas
 Boot the entire runtime environment locally
 
 ```
-micro server
+ms-run server
 ```
 
 ### Create a service
 
 ```
 # generate a service (follow instructions in output)
-ms-runtime new example
+ms-run new example
 
 # set to use server
-ms-runtime env set server
+ms-run env set server
 
 # run the service
-ms-runtime run example
+ms-run run example
 
 # list services
-ms-runtime list services
+ms-run list services
 
 # call a service
-ms-runtime call go.micro.service.example Example.Call '{"name": "John"}'
+ms-run call go.micro.service.example Example.Call '{"name": "John"}'
 ```
 
 ## Usage
@@ -124,7 +124,7 @@ ms-runtime call go.micro.service.example Example.Call '{"name": "John"}'
 See all the options
 
 ```
-ms-runtime --help
+ms-run --help
 ```
 
 See the [docs](https://yadisnel.github.io/go-ms-runtime) for detailed information on the architecture, installation and use of the platform.
