@@ -3,8 +3,8 @@ package cli
 import (
 	"net/url"
 
-	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2/logger"
+	"github.com/yadisnel/go-ms-cli/v2"
+	"github.com/yadisnel/go-ms/v2/logger"
 	"github.com/micro/micro/v2/service/store/snapshot"
 	"github.com/pkg/errors"
 )

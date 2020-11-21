@@ -7,14 +7,14 @@ import (
 	"os/exec"
 	"sort"
 
-	ccli "github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/config/cmd"
-	gostore "github.com/micro/go-micro/v2/store"
 	"github.com/micro/micro/v2/plugin"
 	"github.com/micro/micro/v2/plugin/build"
 	"github.com/micro/micro/v2/server"
 	"github.com/micro/micro/v2/service"
+	ccli "github.com/yadisnel/go-ms-cli/v2"
+	"github.com/yadisnel/go-ms/v2"
+	"github.com/yadisnel/go-ms/v2/config/cmd"
+	gostore "github.com/yadisnel/go-ms/v2/store"
 
 	// clients
 	"github.com/micro/micro/v2/client/api"

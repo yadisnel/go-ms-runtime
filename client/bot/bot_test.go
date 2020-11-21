@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2/agent/command"
-	"github.com/micro/go-micro/v2/agent/input"
+	"github.com/yadisnel/go-ms-cli/v2"
+	"github.com/yadisnel/go-ms/v2/agent/command"
+	"github.com/yadisnel/go-ms/v2/agent/input"
 
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/registry/memory"
+	"github.com/yadisnel/go-ms/v2"
+	"github.com/yadisnel/go-ms/v2/registry/memory"
 )
 
 type testInput struct {

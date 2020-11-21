@@ -10,11 +10,11 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2/client"
-	cbytes "github.com/micro/go-micro/v2/codec/bytes"
-	"github.com/micro/go-micro/v2/config/cmd"
-	"github.com/micro/go-micro/v2/util/file"
+	"github.com/yadisnel/go-ms-cli/v2"
+	"github.com/yadisnel/go-ms/v2/client"
+	cbytes "github.com/yadisnel/go-ms/v2/codec/bytes"
+	"github.com/yadisnel/go-ms/v2/config/cmd"
+	"github.com/yadisnel/go-ms/v2/util/file"
 	cliutil "github.com/micro/micro/v2/client/cli/util"
 	clic "github.com/micro/micro/v2/internal/command/cli"
 )

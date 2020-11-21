@@ -4,10 +4,10 @@ package broker
 import (
 	"time"
 
-	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	pb "github.com/micro/go-micro/v2/broker/service/proto"
-	log "github.com/micro/go-micro/v2/logger"
+	"github.com/yadisnel/go-ms-cli/v2"
+	"github.com/yadisnel/go-ms/v2"
+	pb "github.com/yadisnel/go-ms/v2/broker/service/proto"
+	log "github.com/yadisnel/go-ms/v2/logger"
 	"github.com/micro/micro/v2/service/broker/handler"
 )
 

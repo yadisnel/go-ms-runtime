@@ -7,13 +7,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/v2/client"
-	cr "github.com/micro/go-micro/v2/config/reader"
-	jr "github.com/micro/go-micro/v2/config/reader/json"
-	"github.com/micro/go-micro/v2/config/source"
-	pb "github.com/micro/go-micro/v2/config/source/service/proto"
-	"github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/store"
+	"github.com/yadisnel/go-ms/v2/client"
+	cr "github.com/yadisnel/go-ms/v2/config/reader"
+	jr "github.com/yadisnel/go-ms/v2/config/reader/json"
+	"github.com/yadisnel/go-ms/v2/config/source"
+	pb "github.com/yadisnel/go-ms/v2/config/source/service/proto"
+	"github.com/yadisnel/go-ms/v2/errors"
+	"github.com/yadisnel/go-ms/v2/store"
 	"github.com/micro/micro/v2/internal/namespace"
 )
 

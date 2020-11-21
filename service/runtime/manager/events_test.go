@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/go-micro/v2/runtime"
-	"github.com/micro/go-micro/v2/store/memory"
+	"github.com/yadisnel/go-ms/v2/runtime"
+	"github.com/yadisnel/go-ms/v2/store/memory"
 	"github.com/micro/micro/v2/internal/namespace"
 )
 
