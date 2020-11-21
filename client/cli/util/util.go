@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 
-	ccli "github.com/micro/cli/v2"
+	ccli "github.com/yadisnel/go-ms-cli/v2"
 	"github.com/micro/micro/v2/internal/config"
 	"github.com/micro/micro/v2/internal/platform"
 	"github.com/micro/micro/v2/service/runtime/profile"

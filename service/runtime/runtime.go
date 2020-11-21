@@ -4,12 +4,12 @@ package runtime
 import (
 	"os"
 
-	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/config/cmd"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/runtime"
-	pb "github.com/micro/go-micro/v2/runtime/service/proto"
+	"github.com/yadisnel/go-ms-cli/v2"
+	"github.com/yadisnel/go-ms/v2"
+	"github.com/yadisnel/go-ms/v2/config/cmd"
+	log "github.com/yadisnel/go-ms/v2/logger"
+	"github.com/yadisnel/go-ms/v2/runtime"
+	pb "github.com/yadisnel/go-ms/v2/runtime/service/proto"
 	"github.com/micro/micro/v2/service/runtime/handler"
 	"github.com/micro/micro/v2/service/runtime/manager"
 	"github.com/micro/micro/v2/service/runtime/profile"

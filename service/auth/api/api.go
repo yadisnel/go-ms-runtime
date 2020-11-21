@@ -1,9 +1,9 @@
 package api
 
 import (
-	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	log "github.com/micro/go-micro/v2/logger"
+	"github.com/yadisnel/go-ms-cli/v2"
+	"github.com/yadisnel/go-ms/v2"
+	log "github.com/yadisnel/go-ms/v2/logger"
 
 	pb "github.com/micro/micro/v2/service/auth/api/proto"
 )

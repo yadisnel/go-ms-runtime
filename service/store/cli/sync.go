@@ -1,7 +1,7 @@
 package cli
 
 import (
-	"github.com/micro/cli/v2"
+	"github.com/yadisnel/go-ms-cli/v2"
 	"github.com/pkg/errors"
 )
 
